@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DataJpaRelationsApplication {
 
 	public static void main(String[] args) {
+//		Logger logger = LoggerFactory.getLogger(DataJpaRelationsApplication.class);
+//		logger.info("started-info");
+//		logger.trace("started-trace");
 		SpringApplication.run(DataJpaRelationsApplication.class, args);
 	}
 
